@@ -1,3 +1,5 @@
+package stayplus;
+
 /**
  * Habitación del hotel. Su estado puede ser "Disponible", "Reservada",
  * "Ocupada" o "Mantenimiento"; las reservas lo actualizan al cambiar de estado.

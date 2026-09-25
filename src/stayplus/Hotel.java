@@ -1,3 +1,5 @@
+package stayplus;
+
 import java.util.ArrayList;
 
 /**
@@ -48,7 +50,7 @@ public class Hotel {
     }
 
     /** Registra un servicio; devuelve false si ya existe uno con el mismo código. */
-    oleanpublic bo registrarServicio(ServicioAdicional servicio) {
+    public boolean registrarServicio(ServicioAdicional servicio) {
         if (buscarServicio(servicio.getCodigo()) != null) {
             return false;
         }
